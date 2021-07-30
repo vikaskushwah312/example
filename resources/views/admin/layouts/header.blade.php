@@ -69,7 +69,20 @@
               </p>
             </a>
           </li>
+
+          <li class="nav-item has-treeview menu-open">
+            <a href="{{url('admin/share-genius')}}" class="nav-link active">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                Dashboard
+              </p>
+            </a>
+          </li>
+
         </ul>
       </nav>
     </div>
   </aside>
+
+  <section class="content">
+  <div class="container-fluid">
