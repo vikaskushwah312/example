@@ -4,4 +4,6 @@ use App\Http\Controllers\Admin\HomeController;
 Route::prefix('admin')->middleware([web::class])->group(function () {
 
 	Route::get('/', [HomeController::class, 'dashboard']);
+	Route::get('dashboard', [HomeController::class, 'dashboard']);
+
 });
